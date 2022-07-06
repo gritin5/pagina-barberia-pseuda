@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/fondoestesi.png);
+}
+hr {
+    border: 2px solid black;
+    height: 5px;
+    border-radius: 10px;
+    background: linear-gradient(to left, black, gray);
+}
+h3{
+    font-family: 'The Nautigal', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: black;
+}
+
+.row {
+    margin-top: 15px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.titulo{
+    margin-top: 10px;
+    text-align: center;
+}
+p{
+    color: rgb(243, 201, 149);
+}
+.p1::after {
+    content: ' Después de...';
+}
+
+.p2::before {
+    content: 'Antes de... ';
+}
+
+.p3::first-letter {
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.p4::first-line {
+    font-style: italic;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.placeholder_1{
+    text-align: center;
+}
+
+.p5::selection {
+    color: #f5f5f5;
+    background: black;
+}
+
+div .img {
+    background: url(/images/broche-del-pelo.png) no-repeat center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 90%;
+}
+
+div .content {
+    background-color: rgba(211, 177, 113, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    margin: 30px;
+}
+
+input::placeholder {
+    color: rgba(66, 46, 2, 0.733);
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+::marker {
+    color: rgb(4, 4, 110);
+}

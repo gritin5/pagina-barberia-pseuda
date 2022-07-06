@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Pseudoelementos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="titulo">
+            <img src="/images/titulo.png" alt="titulo" class="titulo" height="200px">
+        </div class="titulo">
+        <div class="row primera_sesion">
+            <div class="col-md-4">
+                <h3>::after</h3>
+                <p>Permite posicionar un elemento después de otro directamente desde CSS, sin necesidad de copiarlo en el código HTML</p>
+                <p>Por ejemplo:</p>
+                <p class="p1">Hola</p>
+            </div>
+            <div class="col-md-4">
+                <h3>::before</h3>
+                <p>Permite posicionar un elemento antes de otro directamente desde CSS, sin necesidad de copiarlo en el código HTML</p>
+                <p>Por ejemplo:</p>
+                <p class="p2">Hola</p>
+            </div>
+            <div class="col-md-4">
+                <h3>::first-letter</h3>
+                <p>Nos permite acceder y cambiar propiedades especifica y unicamente a la primera letra del contenido de un elemento</p>
+                <p>Por ejemplo:</p>
+                <p class="p3">hola</p>
+            </div>
+        </div>
+       <hr>
+        <div class="row segunda_sesion">
+            <div class="col-md-4">
+                <h3>::first-line</h3>
+                <p>Nos permite acceder y modificar propiedades a la primera línea del contenido de un elemento</p>
+                <p>Por ejemplo:</p>
+                <p class="p4">hola, este es un texto de prueba de unas pocas líneas para demostrar el funcionamiento del pseudo-elemento ::first-line</p>
+            </div>
+            <div class="col-md-4">
+                <h3>::selection</h3>
+                <p>Permite que un elemento cambie sus propiedades al ser seleccionado por el usuario</p>
+                <p>Por ejemplo:</p>
+                <p class="p5">Selecciona este texto para copiarlo y fíjate como cambia de color</p>
+            </div>
+            <div class="col-md-4">
+                <h3>::backdrop</h3>
+                <p>Permite añadir un fondo difuminado a un elemento que está posicionado encima de otro elemento, como una imagen</p>
+                <p>Por ejemplo:</p>
+                <div class="img">
+                    <div class="content">
+                        <p>Hola</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12 placeholder_1">
+                <h3>::placeholder</h3>
+                <p>Este pseudo-elemento permite modificar la apariencia del texto de muestra de un input o textarea, la cual es gris translucida por defecto.</p>
+                <p>Por ejemplo:</p>
+                <input type="text" placeholder=" input ">
+            </div>
+        </div>
+        <hr>
+            <div class="row">
+            <div class="col-md-4">
+                <h3>::marker</h3>
+                <p>Pseudo-elemento que modifica las viñetas de los items de una lista. En este caso haremos que la viñeta (la cual por defecto viene en color negro) se vuelva de color azul oscuro</p>
+                <p>Por ejemplo:</p>
+                <ul>
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>::spelling-error </h3>
+                <p>Pseudo-elemento experimental que hace que un segmento del texto sea marcado como escrito incorrectamente</p>
+                <p>Al ser una tecnología experimental aún no es soportada por los navegadores, por lo tanto no podemos hacer ejemplos con este pseudo-elemento</p>
+            </div>
+            <div class="col-md-4">
+                <h3>::grammar-error </h3>
+                <p>Permite detectar errores gramaticales en la escritura y los resalta para que sean visibles a los usuarios.</p>
+                <p>Al ser una tecnología experimental aún no es soportada por los navegadores, por lo tanto no podemos hacer ejemplos con este pseudo-elemento</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
