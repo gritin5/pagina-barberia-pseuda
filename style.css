@@ -63,7 +63,7 @@ p{
 }
 
 div .img {
-    background: url(/images/broche-del-pelo.png) no-repeat center;
+    background: url(images/broche-del-pelo.png) no-repeat center;
     background-size: cover;
     align-items: center;
     display: flex;
